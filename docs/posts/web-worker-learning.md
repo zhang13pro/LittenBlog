@@ -1,7 +1,8 @@
 ---
 title: 'web worker简易入门'
-date: 2013-09-25 10:55
 ---
+
+## date: 2013-09-25 10:55
 
 js 是单线程的语言，由于此特性，我们在处理并发时需要用到一些技巧，如 setTimeout()，setInterval()，调用 XMLHttpRequest 等。
 但这里的并发只是非阻塞（参照 John Resig 的文章[How JavaScript Timers Work](http://ejohn.org/blog/how-javascript-timers-work/)），真正的多线程编程则需要 HTML5 的 web worker。

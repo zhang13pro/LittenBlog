@@ -1,7 +1,8 @@
 ---
 title: '兔子，胡萝卜与OAuth的故事'
-date: 2013-08-20 12:55
 ---
+
+## date: 2013-08-20 12:55
 
 ![来搞一记Oauth吧](/assets/blogImg/rabbit.jpg)
 

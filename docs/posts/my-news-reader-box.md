@@ -1,7 +1,8 @@
 ---
 title: '网易“聚合阅读”布局的实现'
-date: 2013-05-03 10:55
 ---
+
+## date: 2013-05-03 10:55
 
 ![聚合阅读](/assets/blogImg/myReader0.jpg)
 

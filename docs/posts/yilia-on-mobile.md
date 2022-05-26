@@ -1,7 +1,8 @@
 ---
 title: 'hexo主题Yilia在移动端适配的一些事'
-date: 2015-02-23 12:58
 ---
+
+## date: 2015-02-23 12:58
 
 [Yilia](https://github.com/litten/hexo-theme-yilia)是我去年 9 月开发的主题，本来只是想给自己玩，因而开始有许多“任性”的设计。诸如“我本可以兼容 ie，但我就不”这种…
 结果 star 数越来越多，半年里，居然成为了搜索“hexo-theme”最多 star 数的主题。

@@ -1,7 +1,8 @@
 ---
 title: '再议减少HTTP请求'
-date: 2014-08-14 13:10
 ---
+
+## date: 2014-08-14 13:10
 
 ![沙龙分享](/assets/blogImg/reduce-http.jpg)
 

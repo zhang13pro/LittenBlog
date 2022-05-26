@@ -1,7 +1,8 @@
 ---
 title: 'css实现九宫格(二)'
-date: 2012-12-21 13:54
 ---
+
+## date: 2012-12-21 13:54
 
 书接上回，[上回在这](http://litten.github.com/2012/12/14/css-jiugongge/)。
 

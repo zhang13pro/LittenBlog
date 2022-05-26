@@ -1,7 +1,8 @@
 ---
 title: '失眠故事四【扎龙人】'
-date: 2016-02-09 03:55
 ---
+
+## date: 2016-02-09 03:55
 
 ![](/assets/blogImg/dragon.jpg)
 

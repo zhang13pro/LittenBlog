@@ -1,7 +1,8 @@
 ---
 title: '分享一个IE6，7的CSS hack bug'
-date: 2012-12-17 19:43
 ---
+
+## date: 2012-12-17 19:43
 
 ###一、分享一个 IE6，7 的 css hack bug。  
 ![css hack](/assets/blogImg/css_hack.jpg)

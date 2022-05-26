@@ -1,7 +1,8 @@
 ---
 title: '圣诞到了，帮修改一个头像'
-date: 2012-12-19 14:48
 ---
+
+## date: 2012-12-19 14:48
 
 ![ico原来的样子](/assets/blogImg/xmas_ico0.jpg)
 

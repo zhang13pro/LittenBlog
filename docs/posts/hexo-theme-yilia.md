@@ -1,9 +1,10 @@
 ---
 title: 'Hexo主题Yilia'
+---
+
 date: 2014-08-31 16:03
 
-reward: true
----
+## reward: true
 
 [hexo-theme-yilia](https://github.com/litten/hexo-theme-yilia) 是为 [hexo](https://github.com/tommy351/hexo) 2.4+制作的主题。  
 响应式设计，风格简约。

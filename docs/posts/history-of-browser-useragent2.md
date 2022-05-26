@@ -1,7 +1,8 @@
 ---
 title: '浏览器野史 UserAgent列传（下）'
-date: 2014-10-05 17:26
 ---
+
+## date: 2014-10-05 17:26
 
 ![其实应该叫做浏览器约架史](/assets/blogImg/browser-history2.jpg)
 

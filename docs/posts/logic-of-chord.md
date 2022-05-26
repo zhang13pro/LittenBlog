@@ -1,7 +1,8 @@
 ---
 title: '和弦推导逻辑简析'
-date: 2015-05-25 23:01
 ---
+
+## date: 2015-05-25 23:01
 
 ![Image By Dustin Wallace](/assets/blogImg/chord1.jpg)
 
