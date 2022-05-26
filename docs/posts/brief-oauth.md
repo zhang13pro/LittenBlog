@@ -1,10 +1,6 @@
 ---
-
-title: "谈谈OAuth1,OAuth2异同"
+title: '谈谈OAuth1,OAuth2异同'
 date: 2013-08-11 10:55
-comments: true
-tags: 
-	- web
 ---
 
 ##**一、写在前面**  
@@ -141,12 +137,12 @@ tags:
 
 1. 应用重定向用户到授权服务：  
     _ client_id  
-    _ redirect_uri  
-    _ response_type  
-    _ state Optional; Unique identifier to protect against CSRF  
-    \* scope Optional; what data your application can access.  
-   url 看起来会像是：  
-   oauth_service/login/oauth/authorize?client_id=3MVG9lKcPoNINVB&redirect_uri=http://localhost/oauth/code_callback&scope=user
+    _ redirect\*uri
+   - response\*type
+   - state Optional; Unique identifier to protect against CSRF  
+      \* scope Optional; what data your application can access.  
+     url 看起来会像是：  
+     oauth_service/login/oauth/authorize?client_id=3MVG9lKcPoNINVB&redirect_uri=http://localhost/oauth/code_callback&scope=user
 2. 用户登录服务器并确认授权给应用
 3. 服务器重定向用户到 redirect_url ，附带参数：
    - code

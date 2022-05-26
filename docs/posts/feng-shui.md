@@ -1,10 +1,6 @@
 ---
-
-title: "Minecraft与《协纪辨方书》"
+title: 'Minecraft与《协纪辨方书》'
 date: 2016-02-13 23:55
-comments: true
-tags: 
-	- 旧事
 ---
 
 春节回家，看着书架藏书甚多，选几本晚时翻翻。

@@ -1,11 +1,6 @@
 ---
-
-title: "长白山 | 来去匆匆，惊鸿一瞥"
+title: '长白山 | 来去匆匆，惊鸿一瞥'
 date: 2016-04-01 10:36
-comments: true
-top: true
-tags: 
-	- 旅行
 ---
 
 ![尝尝雪味道](/assets/blogImg/changbaishan-1.jpg)

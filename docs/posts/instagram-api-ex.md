@@ -1,12 +1,6 @@
 ---
-
-title: "instagram图片拉取小经验"
+title: 'instagram图片拉取小经验'
 date: 2014-03-03 22:52
-comments: true
-tags: 
-	- web 
-	- 经验 
-	- 产品
 ---
 
 最近喜欢上了 instagram，分享一下获取照片的经验。

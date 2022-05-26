@@ -1,12 +1,6 @@
 ---
-
-title: "Hello World"
+title: 'Hello World'
 date: 2012-12-13 01:39
-comments: true
-tags: 
-	- 杂谈 
-	- octopress
-key: "1"
 ---
 
 在 Winiex 的推荐和帮助下，这个 octopress 博客终于搭建起来了。

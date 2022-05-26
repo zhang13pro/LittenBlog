@@ -1,13 +1,6 @@
 ---
-
-title: "记“刺客信条”三部曲：水月镜像，无心去来"
+title: '记“刺客信条”三部曲：水月镜像，无心去来'
 date: 2012-12-18 23:23
-comments: true
-tags: 
-	- 游戏 
-	- 旧事
-brief: "第一次有冲动为一个游戏写文字"
-reward: true
 ---
 
 ![刺客信条-兄弟会海报](/assets/blogImg/ckxt0.jpg)

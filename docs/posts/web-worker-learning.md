@@ -1,11 +1,6 @@
 ---
-
-title: "web worker简易入门"
+title: 'web worker简易入门'
 date: 2013-09-25 10:55
-comments: true
-tags: 
-	- web 
-	- html5
 ---
 
 js 是单线程的语言，由于此特性，我们在处理并发时需要用到一些技巧，如 setTimeout()，setInterval()，调用 XMLHttpRequest 等。

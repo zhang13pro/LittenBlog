@@ -1,11 +1,6 @@
 ---
 title: '像素级细节：移动端1px border的实现'
 date: 2014-02-22 20:11
-comments: true
-tags:
-  - css3
-  - html5
-brief: '记住，每个尽责的设计师都是处女座'
 ---
 
 > 请记住，每个尽责的设计师都是处女座…
@@ -93,4 +88,4 @@ brief: '记住，每个尽责的设计师都是处女座'
 源码小 demo，注意要在手机上才能看到效果：[demo](/assets/demo/border1px.html)。
 
 The End.  
-——litten 2.22 _“写轮眼？弱爆了啊 ←_←”_
+——litten 2.22 *“写轮眼？弱爆了啊 ←*←”\_

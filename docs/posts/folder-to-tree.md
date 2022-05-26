@@ -1,11 +1,6 @@
 ---
-
-title: "一个文件夹的自我介绍"
+title: '一个文件夹的自我介绍'
 date: 2014-07-25 08:52
-comments: true
-tags: 
-	- 工具 
-	- js
 ---
 
 #folder2tree

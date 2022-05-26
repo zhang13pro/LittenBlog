@@ -1,7 +1,6 @@
 ---
 title: '模式应用小分享——中介者模式(mediator)'
 date: 2013-01-02 12:36
-comments: true
 ---
 
 ![实况足球](/assets/blogImg/mediator1.jpg)

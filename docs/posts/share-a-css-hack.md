@@ -1,11 +1,6 @@
 ---
-
-title: "分享一个IE6，7的CSS hack bug"
+title: '分享一个IE6，7的CSS hack bug'
 date: 2012-12-17 19:43
-comments: true
-tags: 
-	- css
-key: "5"
 ---
 
 ###一、分享一个 IE6，7 的 css hack bug。  

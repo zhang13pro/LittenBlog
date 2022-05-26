@@ -1,12 +1,8 @@
 ---
-
-title: "Hexo主题Yilia"
+title: 'Hexo主题Yilia'
 date: 2014-08-31 16:03
-comments: true
+
 reward: true
-tags: 
-	- 主题 
-	- hexo
 ---
 
 [hexo-theme-yilia](https://github.com/litten/hexo-theme-yilia) 是为 [hexo](https://github.com/tommy351/hexo) 2.4+制作的主题。  

@@ -1,10 +1,6 @@
 ---
-
-title: "失眠故事五【花匠与候鸟】"
+title: '失眠故事五【花匠与候鸟】'
 date: 2017-06-05 03:55
-comments: true
-tags: 
-	- 故事
 ---
 
 ![Picture by Matt Carlson](/assets/blogImg/diary-29.jpg)

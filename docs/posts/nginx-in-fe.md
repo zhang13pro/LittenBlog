@@ -1,11 +1,6 @@
 ---
-
-title: "Nginx能为前端开发带来什么？"
+title: 'Nginx能为前端开发带来什么？'
 date: 2015-11-03 21:30
-comments: true
-reward: true
-tags: 
-	- 前端
 ---
 
 Nginx 那么好，我想去看看。  

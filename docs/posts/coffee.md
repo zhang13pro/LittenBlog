@@ -1,8 +1,6 @@
 ---
-
 title: '生产者-消费者模型的coffeescript实现'
 date: 2012-12-24 23:51
-comments: true
 ---
 
 这两天一直在看 coffeescript 相关的东西，也帮一个朋友搞了个生产者-消费者模型的 C 语言实现。想到还没用 coffeescript 真正意义上写过程序，那就尝试做一下吧。

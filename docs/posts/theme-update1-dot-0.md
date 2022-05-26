@@ -1,12 +1,6 @@
 ---
-
-title: "Blog主题更新-1.0"
+title: 'Blog主题更新-1.0'
 date: 2012-12-16 15:16
-comments: true
-tags: 
-	- 主题
-	- octopress
-key: "4"
 ---
 
 这次的主题更新重点放在**功能的完善与优化**上，以下是本次（<code>1.0</code>）的更新内容：

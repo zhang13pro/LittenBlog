@@ -1,10 +1,6 @@
 ---
-
-title: "说到加载图片，我们可以谈些什么"
+title: '说到加载图片，我们可以谈些什么'
 date: 2015-04-28 23:54
-comments: true
-tags: 
-	- js
 ---
 
 ![原图 by Denis Perepelenko](/assets/blogImg/lazyload.jpg)

@@ -1,10 +1,6 @@
 ---
-
-title: "在鼓浪屿"
+title: '在鼓浪屿'
 date: 2016-08-01 01:36
-comments: true
-tags: 
-	- 旅行
 ---
 
 —— litten 2015.11.04

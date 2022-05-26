@@ -1,11 +1,6 @@
 ---
-
-title: "还是丽江有意思"
+title: '还是丽江有意思'
 date: 2014-09-26 0:53
-comments: true
-tags: 
-	- 生活 
-	- 旧事
 ---
 
 ![丽江古城](/assets/blogImg/lijiang.jpg)

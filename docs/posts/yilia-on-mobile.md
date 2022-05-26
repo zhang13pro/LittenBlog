@@ -1,11 +1,6 @@
 ---
-
-title: "hexo主题Yilia在移动端适配的一些事"
+title: 'hexo主题Yilia在移动端适配的一些事'
 date: 2015-02-23 12:58
-comments: true
-tags: 
-	- hexo
-	- 主题 
 ---
 
 [Yilia](https://github.com/litten/hexo-theme-yilia)是我去年 9 月开发的主题，本来只是想给自己玩，因而开始有许多“任性”的设计。诸如“我本可以兼容 ie，但我就不”这种…

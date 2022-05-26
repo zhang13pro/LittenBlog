@@ -1,11 +1,6 @@
 ---
-
-title: "兔子，胡萝卜与OAuth的故事"
+title: '兔子，胡萝卜与OAuth的故事'
 date: 2013-08-20 12:55
-comments: true
-tags: 
-	- web
-brief: "让我来当一回不靠谱的说书人"
 ---
 
 ![来搞一记Oauth吧](/assets/blogImg/rabbit.jpg)

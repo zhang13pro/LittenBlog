@@ -1,13 +1,6 @@
 ---
-
-title: "再议减少HTTP请求"
+title: '再议减少HTTP请求'
 date: 2014-08-14 13:10
-comments: true
-tags: 
-	- html5 
-	- 前端 
-	- 性能
-brief: "第三届IMWEB前端技术沙龙分享"
 ---
 
 ![沙龙分享](/assets/blogImg/reduce-http.jpg)

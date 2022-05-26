@@ -1,13 +1,6 @@
 ---
-
-title: "爱上一匹二维马可我家里没有草原…"
+title: '爱上一匹二维马可我家里没有草原…'
 date: 2014-08-01 23:52
-comments: true
-tags: 
-	- html5 
-	- 前端 
-	- js 
-	- github
 ---
 
 #Kael-Qrcode
