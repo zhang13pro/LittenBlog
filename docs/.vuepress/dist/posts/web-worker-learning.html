@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.46">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>web worker简易入门 | </title><meta name="description" content="">
+    <link rel="modulepreload" href="/assets/app.3398e39f.js"><link rel="modulepreload" href="/assets/web-worker-learning.html.ff47e92f.js"><link rel="modulepreload" href="/assets/web-worker-learning.html.3e807a0e.js"><link rel="prefetch" href="/assets/index.html.ba9440ef.js"><link rel="prefetch" href="/assets/a-chrismas-ico.html.89185cb2.js"><link rel="prefetch" href="/assets/about-pjax.html.97c62139.js"><link rel="prefetch" href="/assets/assassins-creed.html.7ab82df0.js"><link rel="prefetch" href="/assets/brave-new-world.html.0530c3ae.js"><link rel="prefetch" href="/assets/brief-oauth.html.9aad3e13.js"><link rel="prefetch" href="/assets/changbaishan.html.1ba85448.js"><link rel="prefetch" href="/assets/coffee.html.7f7e1239.js"><link rel="prefetch" href="/assets/css-jiugongge.html.cf5f679f.js"><link rel="prefetch" href="/assets/css-jiugongge2.html.1334b07c.js"><link rel="prefetch" href="/assets/css3-animater.html.d9c32254.js"><link rel="prefetch" href="/assets/diary-2016-0710-0716.html.66fbfe3e.js"><link rel="prefetch" href="/assets/diary-2016-0717-0723.html.c2b5ce53.js"><link rel="prefetch" href="/assets/diary-2016-0724-0730.html.77c80bda.js"><link rel="prefetch" href="/assets/diary-2016-0731-0806.html.d1d81ec6.js"><link rel="prefetch" href="/assets/diary-2016-0807-0813.html.682730b6.js"><link rel="prefetch" href="/assets/diary-2016-0814-0820.html.4755a77d.js"><link rel="prefetch" href="/assets/diary-2016-0904-0910.html.411c93a2.js"><link rel="prefetch" href="/assets/diary-2016-0911-0924.html.ebf4211d.js"><link rel="prefetch" href="/assets/diary-2016-1001-1007.html.9c53cf72.js"><link rel="prefetch" href="/assets/diary-2016-1008-1015.html.260fa7eb.js"><link rel="prefetch" href="/assets/diary-2016-1016-1022.html.b3337036.js"><link rel="prefetch" href="/assets/diary-2016-1023-1029.html.f039629c.js"><link rel="prefetch" href="/assets/diary-2016-1030-1105.html.3c6eb151.js"><link rel="prefetch" href="/assets/diary-2016-1112-1119.html.0cc306f9.js"><link rel="prefetch" href="/assets/diary-2016-1225-1231.html.ad70bfc6.js"><link rel="prefetch" href="/assets/diary-2017-0101-0107.html.fb0f4566.js"><link rel="prefetch" href="/assets/diary-2017-0118-0125.html.7b5803ad.js"><link rel="prefetch" href="/assets/diary-2017-0212-0218.html.b54ddd0d.js"><link rel="prefetch" href="/assets/diary-2017-0305-0311.html.82ee7405.js"><link rel="prefetch" href="/assets/diary-2017-0416-0422.html.d879a116.js"><link rel="prefetch" href="/assets/diary-2017-0521-0527.html.1bab3615.js"><link rel="prefetch" href="/assets/douban-index-for-chrome.html.47b2d15f.js"><link rel="prefetch" href="/assets/feng-shui.html.4f63a789.js"><link rel="prefetch" href="/assets/folder-to-tree.html.90f45fcd.js"><link rel="prefetch" href="/assets/graduation-shirt-design.html.209364cb.js"><link rel="prefetch" href="/assets/guide-for-zb.html.fa200c5f.js"><link rel="prefetch" href="/assets/gulangyu.html.f472a695.js"><link rel="prefetch" href="/assets/hack-in-localstorage.html.53f8aa7a.js"><link rel="prefetch" href="/assets/handling-asynchronous-js.html.8097665b.js"><link rel="prefetch" href="/assets/hello-world.html.6d37f274.js"><link rel="prefetch" href="/assets/hexo-theme-yilia.html.da09280e.js"><link rel="prefetch" href="/assets/history-of-browser-useragent.html.37bdb233.js"><link rel="prefetch" href="/assets/history-of-browser-useragent2.html.50c33d75.js"><link rel="prefetch" href="/assets/img-lazy-load.html.5407e6c7.js"><link rel="prefetch" href="/assets/instagram-api-ex.html.82b1c716.js"><link rel="prefetch" href="/assets/journey-to-yunnan.html.850719f5.js"><link rel="prefetch" href="/assets/kael-qrcode-info.html.e19cbb92.js"><link rel="prefetch" href="/assets/lock-me-in-a-cup.html.9996d006.js"><link rel="prefetch" href="/assets/logic-of-chord.html.4238aa72.js"><link rel="prefetch" href="/assets/mediator-model.html.f0aea667.js"><link rel="prefetch" href="/assets/my-fairy-tale1.html.9e24960d.js"><link rel="prefetch" href="/assets/my-fairy-tale2.html.884cb556.js"><link rel="prefetch" href="/assets/my-fairy-tale3.html.588af47c.js"><link rel="prefetch" href="/assets/my-fairy-tale4.html.cf518aae.js"><link rel="prefetch" href="/assets/my-news-reader-box.html.5bebe985.js"><link rel="prefetch" href="/assets/my2013.html.319ac566.js"><link rel="prefetch" href="/assets/nginx-in-fe.html.d5c0bd5a.js"><link rel="prefetch" href="/assets/no-one-used-pro.html.4e1f7f1a.js"><link rel="prefetch" href="/assets/oauth-rabbit.html.ac4a8aaf.js"><link rel="prefetch" href="/assets/prevent-spiders.html.f8fb6d1b.js"><link rel="prefetch" href="/assets/reduce-http-requests.html.72fb8432.js"><link rel="prefetch" href="/assets/safety-point-of-view-from-front-end.html.d7583e7f.js"><link rel="prefetch" href="/assets/share-a-css-hack.html.6c9bca98.js"><link rel="prefetch" href="/assets/something-about-immersion.html.0b4a2c82.js"><link rel="prefetch" href="/assets/the-storied-life-of-aj.html.bad8cca0.js"><link rel="prefetch" href="/assets/theme-update1-dot-0.html.f10e351b.js"><link rel="prefetch" href="/assets/thinner-than-1px-border.html.07773ff6.js"><link rel="prefetch" href="/assets/three-drama.html.53efe0a3.js"><link rel="prefetch" href="/assets/two-magics-of-the-pilot.html.3281561d.js"><link rel="prefetch" href="/assets/viewing-commentary.html.ce8360d5.js"><link rel="prefetch" href="/assets/volunteer-activities.html.e524147d.js"><link rel="prefetch" href="/assets/yilia-on-mobile.html.21a4600f.js"><link rel="prefetch" href="/assets/404.html.f166316b.js"><link rel="prefetch" href="/assets/index.html.8b42ef7f.js"><link rel="prefetch" href="/assets/a-chrismas-ico.html.26b2f527.js"><link rel="prefetch" href="/assets/about-pjax.html.3c650957.js"><link rel="prefetch" href="/assets/assassins-creed.html.89f88cae.js"><link rel="prefetch" href="/assets/brave-new-world.html.2a6b5aa6.js"><link rel="prefetch" href="/assets/brief-oauth.html.d8f0e7e5.js"><link rel="prefetch" href="/assets/changbaishan.html.189218d0.js"><link rel="prefetch" href="/assets/coffee.html.4c8be66f.js"><link rel="prefetch" href="/assets/css-jiugongge.html.9b5a508c.js"><link rel="prefetch" href="/assets/css-jiugongge2.html.ab6051fe.js"><link rel="prefetch" href="/assets/css3-animater.html.139eb34d.js"><link rel="prefetch" href="/assets/diary-2016-0710-0716.html.7a2b0c25.js"><link rel="prefetch" href="/assets/diary-2016-0717-0723.html.1bd3af7d.js"><link rel="prefetch" href="/assets/diary-2016-0724-0730.html.30f9c39d.js"><link rel="prefetch" href="/assets/diary-2016-0731-0806.html.bc938d2e.js"><link rel="prefetch" href="/assets/diary-2016-0807-0813.html.a6786712.js"><link rel="prefetch" href="/assets/diary-2016-0814-0820.html.761bfbba.js"><link rel="prefetch" href="/assets/diary-2016-0904-0910.html.26af90e9.js"><link rel="prefetch" href="/assets/diary-2016-0911-0924.html.f3b38d89.js"><link rel="prefetch" href="/assets/diary-2016-1001-1007.html.acd74014.js"><link rel="prefetch" href="/assets/diary-2016-1008-1015.html.0c926c23.js"><link rel="prefetch" href="/assets/diary-2016-1016-1022.html.7408c19a.js"><link rel="prefetch" href="/assets/diary-2016-1023-1029.html.cd336d75.js"><link rel="prefetch" href="/assets/diary-2016-1030-1105.html.51febe57.js"><link rel="prefetch" href="/assets/diary-2016-1112-1119.html.f04c4f98.js"><link rel="prefetch" href="/assets/diary-2016-1225-1231.html.c8d88d11.js"><link rel="prefetch" href="/assets/diary-2017-0101-0107.html.616426b7.js"><link rel="prefetch" href="/assets/diary-2017-0118-0125.html.bfed96da.js"><link rel="prefetch" href="/assets/diary-2017-0212-0218.html.ef3cd352.js"><link rel="prefetch" href="/assets/diary-2017-0305-0311.html.43aad639.js"><link rel="prefetch" href="/assets/diary-2017-0416-0422.html.3af0458a.js"><link rel="prefetch" href="/assets/diary-2017-0521-0527.html.8fbdeea3.js"><link rel="prefetch" href="/assets/douban-index-for-chrome.html.b4cb7f42.js"><link rel="prefetch" href="/assets/feng-shui.html.0c6ed08e.js"><link rel="prefetch" href="/assets/folder-to-tree.html.61acaaff.js"><link rel="prefetch" href="/assets/graduation-shirt-design.html.1c444eaf.js"><link rel="prefetch" href="/assets/guide-for-zb.html.b6d7c6cc.js"><link rel="prefetch" href="/assets/gulangyu.html.021b58a0.js"><link rel="prefetch" href="/assets/hack-in-localstorage.html.7c0fcc97.js"><link rel="prefetch" href="/assets/handling-asynchronous-js.html.0f88537e.js"><link rel="prefetch" href="/assets/hello-world.html.a3964cc6.js"><link rel="prefetch" href="/assets/hexo-theme-yilia.html.fb004412.js"><link rel="prefetch" href="/assets/history-of-browser-useragent.html.2c5ae29e.js"><link rel="prefetch" href="/assets/history-of-browser-useragent2.html.5629ae5c.js"><link rel="prefetch" href="/assets/img-lazy-load.html.b4bf44ea.js"><link rel="prefetch" href="/assets/instagram-api-ex.html.3b3cfeaa.js"><link rel="prefetch" href="/assets/journey-to-yunnan.html.c1bc777f.js"><link rel="prefetch" href="/assets/kael-qrcode-info.html.acad9415.js"><link rel="prefetch" href="/assets/lock-me-in-a-cup.html.e724e02d.js"><link rel="prefetch" href="/assets/logic-of-chord.html.6304261e.js"><link rel="prefetch" href="/assets/mediator-model.html.f67e4ebd.js"><link rel="prefetch" href="/assets/my-fairy-tale1.html.c3e8673d.js"><link rel="prefetch" href="/assets/my-fairy-tale2.html.609b1245.js"><link rel="prefetch" href="/assets/my-fairy-tale3.html.3414eae5.js"><link rel="prefetch" href="/assets/my-fairy-tale4.html.c4962e69.js"><link rel="prefetch" href="/assets/my-news-reader-box.html.1620550d.js"><link rel="prefetch" href="/assets/my2013.html.895b86d4.js"><link rel="prefetch" href="/assets/nginx-in-fe.html.bda2ebcf.js"><link rel="prefetch" href="/assets/no-one-used-pro.html.b4a21850.js"><link rel="prefetch" href="/assets/oauth-rabbit.html.a5b25dc7.js"><link rel="prefetch" href="/assets/prevent-spiders.html.334dc9fe.js"><link rel="prefetch" href="/assets/reduce-http-requests.html.183fde1a.js"><link rel="prefetch" href="/assets/safety-point-of-view-from-front-end.html.97747568.js"><link rel="prefetch" href="/assets/share-a-css-hack.html.bdfcd302.js"><link rel="prefetch" href="/assets/something-about-immersion.html.0f0fe315.js"><link rel="prefetch" href="/assets/the-storied-life-of-aj.html.e28618c6.js"><link rel="prefetch" href="/assets/theme-update1-dot-0.html.804d00b5.js"><link rel="prefetch" href="/assets/thinner-than-1px-border.html.36f5929c.js"><link rel="prefetch" href="/assets/three-drama.html.bf984fe3.js"><link rel="prefetch" href="/assets/two-magics-of-the-pilot.html.db685b26.js"><link rel="prefetch" href="/assets/viewing-commentary.html.dd44c6b0.js"><link rel="prefetch" href="/assets/volunteer-activities.html.dc68803a.js"><link rel="prefetch" href="/assets/yilia-on-mobile.html.6f992b54.js"><link rel="prefetch" href="/assets/404.html.b1bfbdaf.js"><link rel="prefetch" href="/assets/404.5e85c5b4.js"><link rel="prefetch" href="/assets/Layout.924ef564.js">
+    <link rel="stylesheet" href="/assets/style.3ac1bbff.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/" class=""><!----><!----></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><!----><!--[--><!--]--><button class="toggle-dark-button" title="toggle dark mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><!----><!--[--><!--]--><ul class="sidebar-items"><!--[--><li><p tabindex="0" class="sidebar-item sidebar-heading">web worker简易入门 <!----></p><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/posts/web-worker-learning.html#date-2013-09-25-10-55" class="router-link-active router-link-exact-active sidebar-item" aria-label="date: 2013-09-25 10:55"><!--[--><!--]--> date: 2013-09-25 10:55 <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h2 id="date-2013-09-25-10-55" tabindex="-1"><a class="header-anchor" href="#date-2013-09-25-10-55" aria-hidden="true">#</a> date: 2013-09-25 10:55</h2><p>js 是单线程的语言，由于此特性，我们在处理并发时需要用到一些技巧，如 setTimeout()，setInterval()，调用 XMLHttpRequest 等。 但这里的并发只是非阻塞（参照 John Resig 的文章<a href="http://ejohn.org/blog/how-javascript-timers-work/" target="_blank" rel="noopener noreferrer">How JavaScript Timers Work<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a>），真正的多线程编程则需要 HTML5 的 web worker。</p><p>###<strong>【worker 的使用】</strong> web worker 的使用非常简单，线程之间通讯的 api 与 html5 postmessage 或 node.js 里面的 socket.io 方法类似。</p><p>通讯：</p><ol><li>发送方：postMessage(data)</li><li>接收方：onmessage(event)</li></ol><p>终止 web worker:</p><ol><li>子线程: self.close()</li><li>父线程: worker.terminate()</li></ol><p>按照目前 w3c 规范，web worker 分为两种：专用 worker(Dedicated Worker)和共享 worker(Shared Worker)。</p><p>###<strong>【专用 worker】</strong> 实例化一个 web worker 对象，异步加载子线程文件 worker.js，其中的代码将执行。</p><pre><code>var worker = new Worker(&quot;worker.js&quot;);
+</code></pre><p>给 worker 增加侦听</p><pre><code>worker.onmessage = function (event) {
+    alert(event.data);
+};
+</code></pre><p>在 worker.js 里，发送消息给父线程</p><pre><code>postMessage(&#39;hello，imweb&#39;);
+</code></pre><p>在父线程页面就能看到发送过来的信息了。</p><p>同时，在 web worker 标准中，是支持对象参数的，也就是说我们能够传递 json 数据。再看一个稍微复杂点的例子，父线程：</p><pre><code>var worker = new Worker(&quot;worker.js&quot;);
+worker.onmessage = function (event) {
+	document.getElementById(&quot;result&quot;).innerHTML=event.data;
+};
+
+function start(){
+	worker.postMessage({&#39;cmd&#39;: &#39;start&#39;, &#39;msg&#39;: &#39;start&#39;});
+}
+
+function pause(){
+	worker.postMessage({&#39;cmd&#39;: &#39;pause&#39;, &#39;msg&#39;: &#39;pause&#39;});
+}
+
+function stop(){
+	worker.postMessage({&#39;cmd&#39;: &#39;stop&#39;, &#39;msg&#39;: &#39;stop&#39;});
+}
+
+function msg(){
+	worker.postMessage({&#39;msg&#39;: &#39;hello imweb&#39;});
+}
+</code></pre><p>worker.js：</p><pre><code>self.onmessage = function (e) {
+	var data = e.data;
+  	switch (data.cmd) {
+    case &#39;start&#39;:
+    	taskStart(); //大量数据处理
+      	postMessage(&#39;WORKER DO: &#39; + data.msg);
+      	break;
+    case &#39;pause&#39;:
+    	taskPause();
+      	postMessage(&#39;WORKER DO: &#39; + data.msg);
+      	break;
+    case &#39;stop&#39;:
+      	postMessage(&#39;WORKER DO: &#39; + data.msg);
+      	self.close(); //终止web worker
+      	break;
+    default:
+      	postMessage(&#39;MESSAGE: &#39; + data.msg);
+  	};
+};
+</code></pre><p>从上面的例子可以看到，一是利用对象参数，进程之间能够较灵活的实现控制；二是当 woker 执行 taskStart()处理大量数据时，只在子进程处理，不会给主页面带来阻塞，通常，处理大量数据会消极影响程序的响应能力，而 web worker 通过这样的方式，能提供一个更流畅更实时的 UI。</p><p>###<strong>【共享 worker】</strong> 共享 worker 允许线程在同源中的多个页面间进行共享，例如：同源中所有页面或脚本可以与同一个共享线程通信。它的实例化与事件侦听的写法与专用 worker 略有不同,主页面：</p><pre><code>var worker = new SharedWorker(&#39;shared-worker.js&#39;);
+worker.port.onmessage = function(e) {
+    msg = &#39;Someone just said &quot;&#39; + e.data.message + &#39;&quot;. That is message number &#39; + e.data.counter;
+    console.log(msg);
+};
+worker.port.postMessage(&#39;hello shared worker!&#39;);
+</code></pre><p>shared-worker.js:</p><pre><code>var counter = 0;
+var connections = [];
+onconnect = function(eConn) {
+</code></pre><p>var port = eConn.ports[0]; // 此连接的特有 port</p><p>//当有消息的时候通知所有的连接 port.onmessage = function(eMsg) { counter++; for (var i=0; i &lt; connections.length; i++) { connections[i].postMessage({ message: eMsg.data, counter: counter }); } } port.start(); connections.push(port);</p><p>用两个窗口打开这个页面，第一个显示：<strong>Someone just said &quot;Hello shared worker!&quot; This is message number 1</strong>，第二个也收到一样的信息， 但是后面是<strong>message number 2</strong>。</p><p>###<strong>【安全性和错误检查】</strong> 出于安全性的考虑，web worker 必须遵守同源策略。同时，它的全局对象是 worker 对象本身，this 和 self 引用的都是 worker 对象。<br> 只能访问：</p><ol><li>navigator 对象（仅限 appName, appVersion, platform, userAgent）</li><li>location 对象（只读）</li><li>XMLHttpRequest</li><li>setTimeout(), setInterval(), clearTimeout()和 clearInterval()方法</li></ol><p>不能访问：</p><ol><li>DOM(不是线程安全的)</li><li>window 对象</li><li>document 对象</li><li>parent 对象</li></ol><p>worker 内部出现错误时，可以用 worker.onerror 侦听到，error 的事件有三个属性：</p><ol><li>filename: 发生错误的文件名</li><li>lineno: 代码行号</li><li>message: 完整的错误信息</li></ol><p>如：</p><pre><code>worker.onerror = function(e) {
+	console.log(e.filename+&quot;ERROR on line&quot;+e.lineno+&quot;,msg:&quot;+e.message);
+}
+</code></pre><p>###<strong>【web worker 的其他尝试】</strong> 对于比较消耗时间的操作，我们可看到 web worker 能够发挥它的作用。比如：大量数据排序，精确到像素的 canvas 计算等。而我们又知道，jsonp 加载数据时，动态创建 script 标签，加载和执行这些过程都是阻塞式的，而 web worker 正好可以异步加载，这会是更快的方式吗？带着这个疑问我做了下面的试验，分别用 jsonp 和 worker 的方式去加载文件，计算数据返回时延：</p><pre><code>function tryJsonp(){
+	var d = (new Date()).valueOf();
+	var jsonp=document.createElement(&quot;script&quot;);
+    jsonp.type=&quot;text/javascript&quot;;
+    jsonp.src=&quot;worker.js?_=&quot;+d;
+    document.getElementsByTagName(&quot;head&quot;)[0].appendChild(jsonp);
+    jsonp.onload = jsonp.onreadystatechange = function(){
+	   	if(!this.readyState||this.readyState==&#39;loaded&#39;||this.readyState==&#39;complete&#39;){
+	   		console.log(&#39;jsonp: &#39;+ ((new Date()).valueOf() - d));
+		}
+	}
+}
+function tryWorker(){
+	var d = (new Date()).valueOf();
+	var worker = new Worker(&quot;worker.js&quot;);
+	worker.postMessage({&#39;cmd&#39;: &#39;start&#39;, &#39;msg&#39;: &#39;start&#39;});
+	worker.onmessage = function (event) {
+		console.log(&#39;web worker: &#39;+ ((new Date()).valueOf() - d));
+	};
+}
+</code></pre><p>第一次加载是一份 1k 大小的文件，每个方法重复 5 次，返回结果为:<br><img src="/assets/blogImg/web_worker1.png" alt="1k文件重复5次"><br> 第二次加载 1800k 大小的文件，返回结果为：<br><img src="/assets/blogImg/web_worker2.png" alt="1800k文件重复5次"><br> 可以看到对于较小的数据，jsonp 还是比 web worker 要快，这可能是实例化 worker 对象时带来的影响；而数据偏大时，web worker 的加载将会更优，而且它可以异步加载。</p><p>THE END.</p></div><!--[--><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: zhang13pro@qq.com">LEX</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.3398e39f.js" defer></script>
+  </body>
+</html>

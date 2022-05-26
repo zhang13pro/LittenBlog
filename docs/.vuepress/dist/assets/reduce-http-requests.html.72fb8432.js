@@ -1,0 +1,6 @@
+const e={key:"v-3bcb4582",path:"/posts/reduce-http-requests.html",title:"\u518D\u8BAE\u51CF\u5C11HTTP\u8BF7\u6C42",lang:"en-US",frontmatter:{title:"\u518D\u8BAE\u51CF\u5C11HTTP\u8BF7\u6C42"},excerpt:`<h2 id="date-2014-08-14-13-10" tabindex="-1"><a class="header-anchor" href="#date-2014-08-14-13-10" aria-hidden="true">#</a> date: 2014-08-14 13:10</h2>
+<p><img src="/assets/blogImg/reduce-http.jpg" alt="\u6C99\u9F99\u5206\u4EAB"></p>
+<blockquote>
+<p>\u6700\u8FD1\u53C2\u52A0\u4E86 IMWEB \u524D\u7AEF\u6280\u672F\u6C99\u9F99\u6D3B\u52A8\uFF0C\u6709\u5E78\u80FD\u7AD9\u5230\u8BB2\u53F0\u4E0A\uFF0C\u5C06\u6027\u80FD\u65B9\u9762\u7684\u7ECF\u9A8C\u4E0E\u5927\u5BB6\u5206\u4EAB\u3002\u73B0\u5C06\u201C\u518D\u8BAE\u51CF\u5C11 HTTP \u8BF7\u6C42\u201D\u90E8\u5206\u7B80\u5355\u6458\u526A\u6210\u6587\u3002</p>
+</blockquote>
+`,headers:[{level:2,title:"date: 2014-08-14 13:10",slug:"date-2014-08-14-13-10",children:[{level:3,title:"\u524D\u8A00:",slug:"\u524D\u8A00",children:[]},{level:3,title:"\u518D\u8BAE\u51CF\u5C11 HTTP \u8BF7\u6C42\uFF1A",slug:"\u518D\u8BAE\u51CF\u5C11-http-\u8BF7\u6C42",children:[]},{level:3,title:"\u6700\u4F73\u5B9E\u8DF5",slug:"\u6700\u4F73\u5B9E\u8DF5",children:[]}]}],git:{updatedTime:1653549959e3,contributors:[{name:"LEX",email:"zhang13pro@qq.com",commits:3}]},filePathRelative:"posts/reduce-http-requests.md"};export{e as data};

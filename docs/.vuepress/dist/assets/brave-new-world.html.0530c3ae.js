@@ -1,0 +1,12 @@
+const e={key:"v-0092e636",path:"/posts/brave-new-world.html",title:"\u7F8E\u4E3D\u65B0\u4E16\u754C",lang:"en-US",frontmatter:{title:"\u7F8E\u4E3D\u65B0\u4E16\u754C"},excerpt:`<h2 id="date-2017-02-10-10-36" tabindex="-1"><a class="header-anchor" href="#date-2017-02-10-10-36" aria-hidden="true">#</a> date: 2017-02-10 10:36</h2>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28949128&auto=0&height=66" style="margin-left: -10px;"></iframe>
+<p>\u75DB\u4EF0\u6709\u4E00\u9996\u6B4C\uFF0C\u53EB\u300A\u7F8E\u4E3D\u65B0\u4E16\u754C\u300B\uFF0C\u5B83\u5176\u5B9E\u662F\u5411 80 \u5E74\u524D\u8D6B\u80E5\u9ECE\u7684\u540C\u540D\u5C0F\u8BF4\u81F4\u656C\u3002
+\u6B4C\u91CC\u5531\u9053\uFF1A
+<strong>\u201C\u8FD9\u662F\u4E00\u4E2A\u79BB\u5947\u7684\u68A6\u4E5F\u662F\u5192\u9669\u8005\u7684\u4E50\u56ED
+\u4E0D\u5728\u4E4E\u4F60\u5728\u4E0D\u5728\u4E4E\u65B0\u7684\u4E16\u754C\u4F9D\u65E7\u7F8E\u4E3D\u2026\u201D</strong></p>
+<p>\u4E4C\u6258\u90A6\u5982\u6B64\u7F8E\u597D\uFF0C\u4F46\u5728\u90A3\u91CC\uFF0C\u5E78\u798F\u7684\u4EBA\u4EEC\u5168\u90FD\u662F\u201C\u88AB\u5E78\u798F\u7684\u201D\u3002
+\u4F60\u7684\u5728\u4E4E\u4E0E\u5426\u65E0\u5173\u7D27\u8981\uFF0C\u53EA\u9700\u8981\u6309\u7167\u79E9\u5E8F\u7EE7\u7EED\u6F2B\u6B65\u3002</p>
+<p>\u6625\u8282\u628A<a href="https://movie.douban.com/subject/2338055/" target="_blank" rel="noopener noreferrer">\u300A\u897F\u90E8\u4E16\u754C\u300B<ExternalLinkIcon/></a>\u770B\u5B8C\uFF0C\u5B83\u7684\u4E00\u4E9B\u8BBE\u5B9A\uFF0C\u4E5F\u5F88\u5BB9\u6613\u770B\u51FA\u81F4\u656C\u5C0F\u8BF4\u7684\u610F\u601D\uFF0C\u5374\u53C8\u5E26\u6765\u4E86\u53E6\u5916\u7684\u60CA\u559C\u3002
+\u7247\u5C3E Dolores \u7684\u60CA\u8273\u4E00\u67AA\u5C18\u57C3\u843D\u5B9A\uFF0C\u73B0\u5728\u5DF2\u7ECF\u8FC7\u53BB\u4E00\u6BB5\u65F6\u95F4\uFF0C\u82B1\u54E8\u7684\u526A\u8F91\u892A\u51FA\u4E86\u5370\u8C61\uFF0C\u7EC6\u5FAE\u7684\u4E1C\u897F\u53CD\u800C\u66F4\u52A0\u6DF1\u523B\u4E86\u3002
+\u8FD8\u662F\u60F3\u8C08\u4E00\u8C08\u8FD9\u90E8\u4F5C\u54C1\u3002(\u542B\u5267\u900F\u2026)</p>
+`,headers:[{level:2,title:"date: 2017-02-10 10:36",slug:"date-2017-02-10-10-36",children:[{level:3,title:"\u795E\u8BC6",slug:"\u795E\u8BC6",children:[]},{level:3,title:"\u771F\u6211",slug:"\u771F\u6211",children:[]},{level:3,title:"\u540C\u5F52",slug:"\u540C\u5F52",children:[]}]}],git:{updatedTime:1653549959e3,contributors:[{name:"LEX",email:"zhang13pro@qq.com",commits:3}]},filePathRelative:"posts/brave-new-world.md"};export{e as data};

@@ -1,0 +1,1 @@
+const e={key:"v-71b51557",path:"/posts/hello-world.html",title:"Hello World",lang:"en-US",frontmatter:{title:"Hello World"},excerpt:"",headers:[{level:2,title:"date: 2012-12-13 01:39",slug:"date-2012-12-13-01-39",children:[]}],git:{updatedTime:1653549959e3,contributors:[{name:"LEX",email:"zhang13pro@qq.com",commits:3}]},filePathRelative:"posts/hello-world.md"};export{e as data};

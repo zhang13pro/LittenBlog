@@ -1,0 +1,1 @@
+const e={key:"v-8daa1a0e",path:"/",title:"There is Blog by Litten",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1653547056e3,contributors:[{name:"LEX",email:"zhang13pro@qq.com",commits:1}]},filePathRelative:"README.md"};export{e as data};

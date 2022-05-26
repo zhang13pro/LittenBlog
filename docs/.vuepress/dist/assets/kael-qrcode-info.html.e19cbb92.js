@@ -1,0 +1,9 @@
+const e={key:"v-7ad77e32",path:"/posts/kael-qrcode-info.html",title:"\u7231\u4E0A\u4E00\u5339\u4E8C\u7EF4\u9A6C\u53EF\u6211\u5BB6\u91CC\u6CA1\u6709\u8349\u539F\u2026",lang:"en-US",frontmatter:{title:"\u7231\u4E0A\u4E00\u5339\u4E8C\u7EF4\u9A6C\u53EF\u6211\u5BB6\u91CC\u6CA1\u6709\u8349\u539F\u2026"},excerpt:`<h2 id="date-2014-08-01-23-52" tabindex="-1"><a class="header-anchor" href="#date-2014-08-01-23-52" aria-hidden="true">#</a> date: 2014-08-01 23:52</h2>
+<p>#Kael-Qrcode</p>
+<blockquote>
+<p>\u57FA\u4E8E html5 canvas\uFF0C\u7075\u6D3B\u8F7B\u5DE7\uFF0C\u7F8E\u89C2\u591A\u53D8\u7684\u4E8C\u7EF4\u7801\u751F\u6210\u5E93</p>
+</blockquote>
+<p>\u4E00\u76F4\u89C9\u5F97\u4E8C\u7EF4\u7801\u957F\u5F97\u592A\u5355\u4E00\uFF0C\u62BD\u7A7A\u505A\u4E86\u4E00\u4E2A\u751F\u6210\u5E93\uFF1A<a href="https://github.com/litten/Kael-Qrcode" target="_blank" rel="noopener noreferrer">github here<ExternalLinkIcon/></a>\u3002<br>
+\u53D6\u540D\u5361\u5C14\uFF0C\u7F18\u7531 dota \u82F1\u96C4 Kael\uFF1B\u4E00\u751F\u4E8C\uFF0C\u4E8C\u751F\u4E09\uFF0C\u4E09\u751F\u4E07\u7269 \uFF0C\u7B80\u5355\u5730\u914D\u7F6E Kael-Qrcode\uFF0C\u5E2E\u52A9\u4F60\u53D8\u6362\u51FA\u65E0\u7A77\u6837\u5F0F\u7684\u4E8C\u7EF4\u7801\u3002</p>
+<p>\u4E8C\u7EF4\u7801\u4E0D\u5E94\u53EA\u662F\u90A3\u53EA\u9ED1\u767D\u7684\u6591\u9A6C\uFF0C\u5B83\u8FD8\u53EF\u4EE5\u662F\u9A8F\u9A6C\u91CE\u9A6C\u6D77\u9A6C\u6CB3\u9A6C\u8349\u6CE5\u9A6C\u2026</p>
+`,headers:[{level:2,title:"date: 2014-08-01 23:52",slug:"date-2014-08-01-23-52",children:[{level:3,title:"\u4F7F\u7528 Usage:",slug:"\u4F7F\u7528-usage",children:[]},{level:3,title:"\u6B63\u5728\u505A Todo\uFF1A",slug:"\u6B63\u5728\u505A-todo",children:[]}]}],git:{updatedTime:1653549959e3,contributors:[{name:"LEX",email:"zhang13pro@qq.com",commits:3}]},filePathRelative:"posts/kael-qrcode-info.md"};export{e as data};
