@@ -8,16 +8,15 @@ const reName = (dir, ext) => {
   for (let i = 0; i < fileList.length; i++) {
     let file = fileList[i]
     file = path.join(dir, file)
-    if (util.isFile(file)) {
-      let parsed = path.parse(file)
-      let newFileName = parsed.name + ext
-      try {
-        fs.renameSync(file, path.join(parsed.dir, newFileName))
-        console.log(`${file} ========> ${path.join(parsed.dir, newFileName)}`)
-      } catch (error) {
-        throw error
-      }
+    let parsed = path.parse(file)
+    let newFileName = parsed.name + ext
+    try {
+      fs.renameSync(file, path.join(parsed.dir, newFileName))
+    } catch (error) {
+      throw error
     }
   }
   console.log('done')
 }
+
+reName('./posts', '.md')
